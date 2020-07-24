@@ -1,0 +1,31 @@
+{
+  "src_folders": ["./src"],
+  "output_folder": "test-report",
+  "webdriver": {
+    "start_process": true,
+    "server_path": "node_modules/.bin/chromedriver",
+    "port": 9515
+  },
+  "test_settings": {
+    "default": {
+      "screenshots": {
+        "enabled": true,
+        "on_failure": true,
+        "on_error": true,
+        "path": "./screenshots"
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome"
+      },
+      "launch_url": "https://acme.apricity-health.com/login"
+    },
+    "test": {
+      "launch_url": "https://acme.apricity-health.com/login",
+      "desiredCapabilities": {}
+    },
+    "stage": {
+      "launch_url": " ",
+      "desiredCapabilities": {}
+    }
+  }
+}

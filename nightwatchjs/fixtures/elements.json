@@ -1,0 +1,34 @@
+{
+    "loginPage":{
+        "acmepic": "div.App  >* div:nth-child(1) > img",
+        "userInput": "input[id = 'username']",
+        "passwordInput": "input[id = 'password']",
+        "submit": "//*[@id='root']//div[1]/div[2]/button[1]/span[1]/span",
+        "loginFailed": "/html/body/div/div/div/div[1]/div[2]/p[2]"
+
+    },
+    "homePage": {
+        "header": "//*[@id='root']//header/div/h2/span",
+        "text": "//*[@id='root']//div[1]//div/p/b[1]",
+        "checkin": "div:nth-child(1) >* a:nth-child(2) > div.jss212.jss213 >* span",
+        "checkinYes" : "/html/body/div[2]/div[2]/div/div[2]/a/span[1]/span",
+        "signOut": "//*[@id='root']//div/div[1]//ul/li[2]//span/span",
+        "signOutConfirm": "/html/body//button[2]/span[1]/span"
+    },
+    "questionOne": {
+        "radioYes": "//*[@id='root']//div[2]//div[2]//div[2]//input",
+        "submit":  " //*[@id='root']//div[4]/button/span[1]/span"
+    },
+    "questionTwo": {
+        "text": "//*[@id='root']//div[2]//div[2]/div[1]/div/div[1]/div",
+        "date": "//*[@id='root']//div[2]/div[1]//div[2]//div/input",
+        "radioYes": "//*[@id='root']//div[2]//div[2]//div[2]//input",
+        "submit":  "//*[@id='root']//div[3]/button"
+    },
+    "questionThree": {
+        "text": "//*[@id='root']//div[2]/div[1]/div/div[2]/div[1]/div/div[1]/div",
+        "radioYes": "//*[@id='root']//div[2]/div[1]//div[2]//div[4]/label/span[1]//input",
+        "submit":  "//*[@id='root']//div[2]//div[5]/button/span/span"
+    }
+    
+}

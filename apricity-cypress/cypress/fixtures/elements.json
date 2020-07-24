@@ -1,0 +1,28 @@
+{
+  "login": {
+    "userInput": "input[id='username']",
+    "userPassword": "input[id='password']",
+    "submitButton": "/html/body/div/div/div/div[1]/div[2]/button[1]/span[1]/span"
+  },
+  "dashboard": {
+    "popupCancelButton": "/html/body/div[2]/div[2]/div/div[2]/button/span[1]/span",
+    "welcomeText": "//*[@id='root']/div/div/div/div[1]/h3/span"
+  },
+  "checkin": {
+    "page1": {
+      "q1Header": "//*[@id='root']/div/div/div/div[2]/div[1]/div/div[2]/div/div/div[1]/div/p/b[1]",
+      "q1OptionNo": "//*[@id='root']/div/div/div/div[2]/div[1]/div/div[2]/div/div/div[3]/label/span[1]/span[1]/input",
+      "submitButton": "//*[@id='root']/div/div/div/div[2]/div[1]/div/div[2]/div/div/div[4]/button/span[1]/span"
+    },
+    "page2": {
+      "q1Header": "/html/body/div/div/div/div/div[2]/div[1]/div/div[2]/div[1]/div/div[1]/div/b[1]"
+    }
+  },
+  "signout": {
+    "confirmPopupButton": "/html/body/div[2]/div[2]/div/div[3]/button[2]/span[1]/span"
+  },
+  "leftNavMenu": {
+    "checkIn": "//*[@id='root']/div/div/header/header/div/div[1]/div/div/div/ul/a[2]/div[2]/span/span",
+    "signOut": "//*[@id='root']/div/div/header/header/div/div[1]/div/div/div/ul/li[2]/div[2]/span/span"
+  }
+}

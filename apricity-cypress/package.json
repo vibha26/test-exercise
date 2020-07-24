@@ -1,0 +1,16 @@
+{
+  "name": "apricity-acme-cypress",
+  "version": "1.0.0",
+  "description": "apricity acme automation using cypress.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress open"
+  },
+  "keywords": [],
+  "author": "Vibha Havanur",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.11.0",
+    "cypress-xpath": "^1.6.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "login": {
+    "username": " ",
+    "userpassword": " "
+  },
+  "url": {
+    "login": "https://acme.apricity-health.com/",
+    "loginAlt": "https://acme.apricity-health.com/login",
+    "dashboard": "https://acme.apricity-health.com/dashboard",
+    "conversation": "https://acme.apricity-health.com/conversation"
+  }
+}
